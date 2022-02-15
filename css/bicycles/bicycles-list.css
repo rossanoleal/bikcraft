@@ -5,21 +5,21 @@
 
 .bicycles-list h2 {
   margin-bottom: 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .bicycles-list-items {
   display: flex;
   gap: 40px;
-  padding: 0 20px;
+  padding: 0 20px 20px 20px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: auto;
+}
+
+.bicycles-list li {
+  flex: 1;
+  min-width: 280px;
 }
 
 .bicycles-list a {
@@ -43,8 +43,22 @@
   width: 12px;
   margin-right: 8px;
   background: var(--color-p1);
+  transition: width 0.2s;
+}
+
+.bicycles-list a:hover h3::before {
+  width: 24px;
 }
 
 .bicycles-list li span {
   padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .bicycles-list {
+    padding-bottom: 60px;
+  }
+  .bicycles-list ul {
+    gap: 20px;
+  }
 }
