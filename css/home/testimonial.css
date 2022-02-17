@@ -43,6 +43,7 @@
   content: "”";
 }
 
+/* Responsive */
 @media (max-width: 800px) {
   .testimonial {
     grid-template-columns: 1fr;

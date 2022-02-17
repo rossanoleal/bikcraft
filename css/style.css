@@ -7,7 +7,7 @@
 /* Utility */
 @import "./utilities/components.css";
 
-/* home */
+/* Home */
 @import "./home/introduction.css";
 @import "./home/technology.css";
 @import "./home/partners.css";
@@ -15,3 +15,6 @@
 
 /* Bicycle */
 @import "./bicycles/bicycles-list.css";
+
+/* Safe */
+@import "./safe/safe.css";
