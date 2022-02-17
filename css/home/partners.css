@@ -25,3 +25,33 @@
 .partners img {
   margin: auto;
 }
+
+.partners li:first-child,
+.partners li:nth-child(5) {
+  border-left: none;
+}
+
+.partners li:nth-child(n + 5) {
+  border-top: 2px solid var(--color-3);
+}
+
+@media (max-width: 800px) {
+  .partners {
+    padding-bottom: 60px;
+  }
+  .partners li {
+    padding: 20px;
+  }
+  .partners h2 {
+    margin-bottom: 20px;
+  }
+  .partners ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .partners li:nth-child(n + 3) {
+    border-top: 2px solid var(--color-3);
+  }
+  .partners li:nth-child(odd) {
+    border-left: none;
+  }
+}
