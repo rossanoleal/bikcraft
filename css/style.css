@@ -19,3 +19,6 @@
 
 /* Safe */
 @import "./safe/safe.css";
+
+/* Terms */
+@import "./terms/terms.css";
