@@ -16,6 +16,7 @@
 
 /* Bicycle */
 @import "./bicycles/bicycles-list.css";
+@import "./bicycles/bicycles.css";
 
 /* Safe */
 @import "./safe/safe.css";
