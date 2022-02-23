@@ -20,6 +20,8 @@
 
 /* Safe */
 @import "./safe/safe.css";
+@import "./safe/benefits.css";
+@import "./safe/questions.css";
 
 /* Terms */
 @import "./terms/terms.css";
