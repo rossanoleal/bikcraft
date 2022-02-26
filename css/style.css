@@ -14,9 +14,12 @@
 @import "./home/partners.css";
 @import "./home/testimonial.css";
 
-/* Bicycle */
+/* Bicycles */
 @import "./bicycles/bicycles-list.css";
 @import "./bicycles/bicycles.css";
+
+/* Bicycle */
+@import "./bicycle/bicycle.css";
 
 /* Safe */
 @import "./safe/safe.css";
