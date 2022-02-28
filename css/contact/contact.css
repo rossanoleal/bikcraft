@@ -67,6 +67,7 @@
   padding-left: 28px;
 }
 
+/* Responsive */
 @media (max-width: 800px) {
   .contact {
     grid-template-columns: 1fr;
