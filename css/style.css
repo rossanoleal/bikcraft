@@ -3,7 +3,7 @@
 @import "./global/header.css";
 @import "./global/footer.css";
 
-/* Utility */
+/* Utilidades */
 @import "./utilities/components.css";
 @import "./utilities/form.css";
 @import "./utilities/typographies.css";
@@ -15,22 +15,25 @@
 @import "./home/partners.css";
 @import "./home/testimonial.css";
 
-/* Bicycles */
+/* Bicicletas */
 @import "./bicycles/bicycles-list.css";
 @import "./bicycles/bicycles.css";
 
-/* Bicycle */
+/* Bicicleta */
 @import "./bicycle/bicycle.css";
 @import "./bicycle/safe.css";
 
-/* Safe */
+/* Seguro */
 @import "./safe/safe.css";
 @import "./safe/benefits.css";
 @import "./safe/questions.css";
 
-/* Contact */
+/* Contato */
 @import "./contact/contact.css";
 @import "./contact/store.css";
 
-/* Terms */
+/* Orçamentos */
+@import "./budget/budget.css";
+
+/* Termos */
 @import "./terms/terms.css";
